@@ -1,5 +1,6 @@
-@import-normalize;
-
 body {
     background-color: #e7ecf2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
