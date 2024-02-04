@@ -11,6 +11,7 @@ export const App = () => {
     <>
       <Profile {...user}/>
       <Statistics title="Upload stats" stats={stats} />
+      <Statistics stats={stats} />
     </>
   )
 };
